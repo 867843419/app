@@ -1,0 +1,139 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/auth/forget/forget",
+			"style": {}
+		},
+		{
+			"path": "pages/auth/login/login",
+			"style": {}
+		},
+		{
+			"path": "pages/auth/register/register",
+			"style": {}
+		},
+		{
+			"path": "pages/deal/home",
+			"style": {}
+		},
+		{
+			"path": "pages/property/home",
+			"style": {}
+		},
+		{
+			"path": "pages/market/home",
+			"style": {}
+		},
+		{
+			"path": "pages/mine/home",
+			"style": {}
+		}, {
+			"path": "pages/mine/about/about",
+			"style": {}
+		}, {
+			"path": "pages/mine/feedback/feedback",
+			"style": {}
+		}, {
+			"path": "pages/mine/password_deal/password_deal",
+			"style": {}
+		}, {
+			"path": "pages/mine/message/message",
+			"style": {}
+		}, {
+			"path": "pages/mine/message/message_detail",
+			"style": {}
+		}, {
+			"path": "pages/mine/info/info",
+			"style": {}
+		}, {
+			"path": "pages/mine/reg/reg",
+			"style": {}
+		}, {
+			"path": "pages/mine/friend/friend",
+			"style": {}
+		}, {
+			"path": "pages/property/record_assets/record_assets",
+			"style": {}
+		}, {
+			"path": "pages/property/record_income_market/record_income_market",
+			"style": {}
+		}, {
+			"path": "pages/property/record_income_static/record_income_static",
+			"style": {}
+		}, {
+			"path": "pages/property/form_transfer_stamp/form_transfer_stamp",
+			"style": {}
+		}, {
+			"path": "pages/property/form_transfer_activecode/form_transfer_activecode",
+			"style": {}
+		}, {
+			"path": "pages/property/form_convert_honest/form_convert_honest",
+			"style": {}
+		}, {
+			"path": "pages/property/record_stamp/record_stamp",
+			"style": {}
+		}, {
+			"path": "pages/property/record_activecode/record_activecode",
+			"style": {}
+		}, {
+			"path": "pages/property/record_honest/record_honest",
+			"style": {}
+		}
+        ,{
+            "path" : "pages/deal/deliver/deliver",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/deal/appoint/appoint",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/deal/grab/grab",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/deal/order_open/order_open",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/deal/order_deliver/order_deliver",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/deal/order_cover/order_cover",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "ESD期证循环交易系统",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"usingComponts": true,
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "表单", //模式名称
+			"path": "pages/component/form", //启动页面
+			"query": "" //启动参数
+		}]
+	},
+	"networkTimeout": { // 网络请求超时时间
+		"request": 6000,
+		"connectSocket": 6000,
+		"uploadFile": 6000,
+		"downloadFile": 6000
+	}
+
+}
